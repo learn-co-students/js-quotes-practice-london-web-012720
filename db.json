@@ -1,19 +1,16 @@
 {
   "quotes": [
     {
-      "id": 1,
-      "quote": "The here and now is all we have, and if we play it right it's all we'll need.",
-      "author": "Ann Richards"
-    },
-    {
       "id": 2,
       "quote": "There are no secrets to success. It is the result of preparation, hard work, and learning from failure.",
-      "author": "Collin Powell"
+      "author": "Collin Powellll",
+      "createdAt": 1584531555628
     },
     {
       "id": 3,
       "quote": "Don't count the days, make the days count.",
-      "author": "Mike Tyson"
+      "author": "Mike Tyson",
+      "createdAt": 1584532244093
     },
     {
       "id": 4,
@@ -28,7 +25,8 @@
     {
       "id": 6,
       "quote": "Do the best you can in every task, no matter how unimportant it may seem at the time. No one learns more about a problem than the person at the bottom.",
-      "author": "Sandra Day O'Connor"
+      "author": "Sandra Day O'Connor",
+      "createdAt": 1584532267953
     },
     {
       "id": 7,
@@ -38,28 +36,82 @@
     {
       "id": 8,
       "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
-      "author": "Winston Churchhill"
+      "author": "Winston Churchhilll",
+      "createdAt": 1584532139623
     },
     {
       "id": 9,
       "quote": "Our greatest glory is not in never falling, but in rising everytime we fall.",
-      "author": "Confucius"
+      "author": "Confucius",
+      "createdAt": 1584532303225
     },
     {
       "id": 10,
       "quote": "You know, failure hurts. Any kind of failure stings. If you live in the sting, you will undoubtedly fail. My way of getting past the sting is to say no, I’m just not going to let this get me down.",
-      "author": "Sonia Sotomayor"
+      "author": "Sonia Sotomayora",
+      "createdAt": 1584531742120
     },
     {
-      "quoteId": 2,
-      "id": 11
+      "quote": "Learn.Love.Code.fun",
+      "author": "Flatiron School",
+      "id": 12,
+      "createdAt": 1584531966063
+    },
+    {
+      "quote": "You know, failure hurts. Any kind of failure stings. If you live in the sting, you will undoubtedly fail. My way of getting past the sting is to say no, I’m just not going to let this get me down.",
+      "author": "Sonia Sotomayor",
+      "createdAt": 1584531804702,
+      "id": 13
+    },
+    {
+      "quote": "fehbghgw",
+      "author": "rgergre",
+      "createdAt": 1584531979877,
+      "id": 14
+    },
+    {
+      "quote": "Don't count the days, make the days count.",
+      "author": "Mike Tyson",
+      "createdAt": 1584532256951,
+      "id": 15
     }
   ],
   "likes": [
     {
-      "id": 1,
-      "quoteId": 1,
-      "createdAt": 1558524356
+      "quoteId": 2,
+      "id": 2
+    },
+    {
+      "quoteId": 2,
+      "id": 3
+    },
+    {
+      "quoteId": 6,
+      "id": 4
+    },
+    {
+      "quoteId": 6,
+      "id": 5
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1584387251803,
+      "id": 6
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1584387313279,
+      "id": 7
+    },
+    {
+      "quoteId": 12,
+      "createdAt": 1584391342097,
+      "id": 8
+    },
+    {
+      "quoteId": 12,
+      "createdAt": 1584391343543,
+      "id": 10
     }
   ]
 }
