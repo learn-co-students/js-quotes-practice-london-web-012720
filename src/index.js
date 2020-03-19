@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
             })
         }).then(res => res.json());
     }
-    
+
     const postLike = (quote) => {
         return fetch(LIKES_URL, {
             method: "POST",
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 'Accept': 'application/json'
             },
             body: JSON.stringify({
-                quoteID: quote.id 
+                quoteId: quote.id 
             })
         }).then(res => res.json())
     }
@@ -76,11 +76,15 @@ document.addEventListener("DOMContentLoaded", () => {
         likeBtn.innerText = "Likes:"
 
         const likeBtnSpan = document.createElement('span')
-        likeBtnSpan.innerText = 0
+        likeBtnSpan.innerText = quote.likes.length 
 
         likeBtn.append(likeBtnSpan)
+
         likeBtn.addEventListener('click', () => {
-            postLike(quote).then(() => likeBtn.children[0].innerText++)
+            postLike(quote).then((like) => {
+                quote.likes.push(like)
+                likeBtnSpan.innerText = quote.likes.length 
+            })
         })
 
         const deleteBtn = document.createElement('button')
@@ -99,6 +103,4 @@ document.addEventListener("DOMContentLoaded", () => {
         li.append(blockQuote, quoteParagraph, authorTag, likeBtn, deleteBtn, editBtn)
         quoteList.append(li)
     }
-    
-
 })
