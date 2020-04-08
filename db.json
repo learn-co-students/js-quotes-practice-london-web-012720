@@ -3,7 +3,14 @@
     {
       "id": 1,
       "quote": "The here and now is all we have, and if we play it right it's all we'll need.",
-      "author": "Ann Richards"
+      "author": "Ann Richards",
+      "likes": [
+        {
+          "id": 1,
+          "quoteId": 1,
+          "createdAt": 1558524356
+        }
+      ]
     },
     {
       "id": 2,
