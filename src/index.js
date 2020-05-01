@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
         likesButton.innerText = `Likes: `
         likesButton.append(span)
             likesButton.addEventListener("click", (e) => {
-                console.log('quote inside fetch', quote)
+                //console.log('quote inside fetch', quote)
                 fetch((likesUrl), {
                     method: "POST",
                     headers: {
